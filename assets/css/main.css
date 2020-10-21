@@ -9903,7 +9903,7 @@ body {
 }
 
 nav img {
-  width: 150px;
+  width: 200px;
   height: 50px;
 }
 
@@ -9931,10 +9931,13 @@ header h1 span {
   width: 100%;
   height: auto;
 }
-.seccion1 h2 {
+.seccion1 .texto {
+  text-align: left;
+}
+.seccion1 .texto h2 {
   margin: 20px 0;
 }
-.seccion1 p {
+.seccion1 .texto p {
   margin: 20px 0;
 }
 
@@ -9957,6 +9960,9 @@ header h1 span {
   background-color: #e56353;
   padding: 50px 0;
 }
+.seccion3 h1 {
+  font-size: 50px;
+}
 
 .seccion4 img {
   padding: 70px 0 0 0;
@@ -9967,6 +9973,14 @@ header h1 span {
 .seccionContacto {
   background-color: #e56353;
   padding: 70px 0;
+  font-weight: 700;
+}
+.seccionContacto h1 {
+  margin-bottom: 40px;
+}
+.seccionContacto button {
+  font-size: 30px;
+  width: 30%;
 }
 
 .footer {
